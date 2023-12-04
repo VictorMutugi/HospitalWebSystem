@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="static\images\findADoc.png" type="image/x-icon">
+        <link rel="stylesheet" href="static\css\findADoctor.css" type="text/css">
+        <script src="static\js\findADctor.js"></script>       
+    </head>
+    <body>
+
+        <h1>Find A Doctor</h1>
+        <fieldset>
+            <form>
+                <p>
+                    <label for="specialty">Specialty</label>
+                    <select name="specialty">
+                        <option value="clinical officer">Clinical Officer</option>
+                        <option value="Gynecologist">Gynecologist</option>
+                        <option value="Obstetrician">Obstetrician</option>
+                        <option value="Pediatrician">Pediatrician</option>
+                        <option value="Radiologist">Radiologist</option>
+                        <option value="Physiotherapist">Physiotherapist</option>
+                        <option value="Psychiatrist">Psychiatrist</option>
+                        <option value="Counselor/Psychologist">Counselor/Psychologist</option>
+                        <option value="Dietician/Nutritionist">Dietician/Nutritionist</option>
+                        <option value="General Surgeon">General Surgeon</option>
+                        <option value="Orthopedic Surgeon">Orthopedic Surgeon</option>       
+                        <option value="Dermatologist">Dermatologist</option>
+                        <option value="Dental Surgeon">Dental Surgeon</option>
+                        <option value="Otolaryngologist">Otolaryngologist/ENT(Ear,Nose,Throat)Surgeon</option>
+                        <option value="Podiatric Surgeon">Podiatric Surgeon</option>
+                        <option value="Colon and Rectal Surgeon">Colon and Rectal Surgeon</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="DocsName">Enter Doctor's name</label>
+                    <textarea name="DocsName" id="DocsName" cols="25" rows="1" placeholder="Dr...">
+                    </textarea>
+                </p>
+            </form>
+        </fieldset>
+
+        <button id="HomePage" onclick="HomePage()">Home</button>
+
+
+    </body>
+</html>

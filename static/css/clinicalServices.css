@@ -1,0 +1,50 @@
+/* clinicalServices.css */
+
+body {
+    background-image: "static\images\clinicalServicesBG.png";
+    background-size: cover; /* Ensures the background image covers the entire body */
+    background-position: center; /* Centers the background image */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    font-family: 'Arial', sans-serif; /* Choose a suitable font */
+    color: #333; /* Set default text color */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  figure {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  img {
+    border: 1px solid #ddd; /* Add border to images */
+    border-radius: 4px; /* Rounded corners for images */
+    padding: 5px; /* Add some padding to images */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Add shadow effect to images */
+  }
+  
+  figcaption {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 600px) {
+    img {
+      width: 100%; /* Make images fill the container on smaller screens */
+    }
+  }
+  button#HomePage{
+    background-color: #3498db;
+    color: whitesmoke;
+}
