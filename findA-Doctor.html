@@ -9,10 +9,10 @@
 
         <h1>Find A Doctor</h1>
         <fieldset>
-            <form>
+            <form method="post" action="db.php">
                 <p>
                     <label for="specialty">Specialty</label>
-                    <select name="specialty">
+                    <select name="specialty" id="specialty">
                         <option value="clinical officer">Clinical Officer</option>
                         <option value="Gynecologist">Gynecologist</option>
                         <option value="Obstetrician">Obstetrician</option>
@@ -32,10 +32,9 @@
                     </select>
                 </p>
                 <p>
-                    <label for="DocsName">Enter Doctor's name</label>
-                    <textarea name="DocsName" id="DocsName" cols="25" rows="1" placeholder="Dr...">
-                    </textarea>
+                    <button type="Submit" value="Search">Search</button>
                 </p>
+                
             </form>
         </fieldset>
 
