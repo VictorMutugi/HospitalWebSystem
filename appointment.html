@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="" type="image/x-icon">
+        <link rel="stylesheet" href="" type="text/css">
+        <script src="static/js/appointment.js"></script>
+        <title>Book an Appointment</title>
+    </head>
+    <body>
+        <fieldset>
+            <form method="post" action="appointments.php">
+                <p>
+                    <label for="FName">Full Name</label>
+                    <input name="FName" type="text" required>
+                </p>
+                <p>
+                    <label for="Number">Phone Number</label>
+                    <input name="Number" type="tel" required>
+                </p>
+                <p>
+                    <label for="date">Date</label>
+                    <input name="date" type="date" required>
+                </p>
+                <p>
+                    <label for="time">Time</label>
+                    <input name="time" type="time" required>
+                </p>
+                <p>
+                    <label for="mail">Email</label>
+                    <input name="mail" type="email" placeholder="johndoe@example.com" required>
+                </p>
+                <p>
+                    <label for="expert">Choose the Medical practitioner you seek:</label>
+                    <select name="expert">
+                        <option value="clinical officer">Clinical Officer</option>
+                        <option value="Gynecologist">Gynecologist</option>
+                        <option value="Obstetrician">Obstetrician</option>
+                        <option value="Pediatrician">Pediatrician</option>
+                        <option value="Radiologist">Radiologist</option>
+                        <option value="Physiotherapist">Physiotherapist</option>
+                        <option value="Psychiatrist">Psychiatrist</option>
+                        <option value="Counselor/Psychologist">Counselor/Psychologist</option>
+                        <option value="Dietetan/Nutritionist">Dietetan/Nutritionist</option>
+                        <option value="General Surgeon">General Surgeon</option>
+                        <option value="Orthopedic Surgeon">Orthopedic Surgeon</option>       
+                        <option value="Dermatologist">Dermatologist</option>
+                        <option value="Dental Surgeon">Dental Surgeon</option>
+                        <option value="Otolaryngologist">Otolaryngologist/ENT(Ear,Nose,Throat)Surgeon</option>
+                        <option value="Podiatric Surgeon">Podiatric Surgeon</option>
+                        <option value="Colon and Rectal Surgeon">Colon and Rectal Surgeon</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="issue">Describe your medical issue</label>
+                    <br>
+                    <textarea name="issue" id="message" cols="150" rows="10" placeholder="Describe your medical issue here">
+                    </textarea>
+                </p>
+
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+               
+                
+            </form>
+        </fieldset>
+
+        <br><br>
+
+        <button id="HomePage" onclick="HomePage()">Home</button>
+        
+    </body>
+</html>
