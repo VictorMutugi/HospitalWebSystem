@@ -62,7 +62,7 @@ body {
   }
   */
   
-  #userInfo, #AboutUs, #ClinicalServices, #doctor, #appointments {
+  #userInfo, #AboutUs, #ClinicalServices, #doctor, #appointments , #login {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #3498db; 
@@ -75,11 +75,11 @@ body {
     transition: background-color 0.3s ease;
   }
   
-  #userInfo, #AboutUs, #ClinicalServices, #doctor, #appointments:hover {
+  #userInfo, #AboutUs, #ClinicalServices, #doctor, #login , #appointments:hover {
     background-color: greenyellow; 
   }
   
-  #userInfo, #AboutUs, #ClinicalServices, #doctor, #appointments.clicked {
+  #userInfo, #AboutUs, #ClinicalServices, #doctor, #login , #appointments.clicked {
     background-color: green; 
   }
   

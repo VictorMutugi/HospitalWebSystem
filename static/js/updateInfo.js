@@ -1,3 +1,3 @@
-function HomePage(){
+function inPage(){
     window.location.href="in.html";
 }

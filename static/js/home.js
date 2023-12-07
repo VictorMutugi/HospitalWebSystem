@@ -21,3 +21,7 @@ function FindDoctor(){
 function AppointmentsPage(){
     window.location.href="appointment.html";
 }
+
+function loginPage(){
+    window.location.href="login.html";
+}
