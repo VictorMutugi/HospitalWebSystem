@@ -42,7 +42,7 @@
                 $result = $conn->query($fetch_sql);
 
                 if ($result !== false && $result->num_rows > 0) {
-                    echo "<h2>Data recorded successfully!</h2>";
+                    header("Location: login.html");
                 } else {
                     echo "No data found";
                 }

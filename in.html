@@ -3,12 +3,15 @@
     <head>
         <title>Logged In</title>
         <script src="static/js/in.js"></script>
+        <link href="static/css/in.css" rel="stylesheet" type="text/css"></link>
     </head>
-    <body>
-        <div id="userData"></div>
+    <body background="static\images\inbg.png">
+        <!-- <div id="userData"></div> -->
+        <button id="EmergencyButton" onclick="Emergency()">Report Emergencies</button><br>
         <button id="doctor" onclick="FindDoctor()">Find A Doctor</button><br>
         <button id="appointments" onclick="AppointmentsPage()">Book An Appointment</button><br>
         <button id="AboutUs" onclick="AboutUsPage()">About Us</button><br>
         <button id="updateInfo" onclick="updateInfo()">Update Details</button><br>
+        <button id="logout" onclick="HomePage()">Log Out</button><br>
     </body>
 </html>

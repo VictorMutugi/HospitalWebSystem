@@ -1,4 +1,7 @@
-// Your existing functions
+function Emergency(){
+    window.location.href="tel:0712345689";
+}
+
 function ClinicalServicesPage() {
     window.location.href = "clinicalServices.html";
 }
@@ -38,3 +41,9 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error("Error:", error);
         });
 });
+
+
+
+function HomePage(){
+    window.location.href="home.html";
+}

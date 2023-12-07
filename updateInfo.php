@@ -34,6 +34,7 @@
             
             if ($conn->query($sql) === TRUE) {
                 echo "Record updated successfully";
+                echo"<br><a href=\"in.html\"><button>Home</button></a>";
             } else {
                 echo "Error updating record: " . $conn->error;
             }

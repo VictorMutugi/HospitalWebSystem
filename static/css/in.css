@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url('static\images\inbg.png'); 
+    background-size: cover;
+    background-position: center;
+}
+
+
+button {
+    padding: 15px 40px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+#EmergencyButton {
+    background-color: #dc3545;
+}
+
+#doctor {
+    background-color: #007bff;
+}
+
+#appointments {
+    background-color: #28a745;
+}
+
+#AboutUs {
+    background-color: #ffc107;
+}
+
+#updateInfo {
+    background-color: #6c757d;
+}
+
+#logout {
+    background-color: #000;
+}

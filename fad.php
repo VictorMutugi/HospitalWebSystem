@@ -46,6 +46,8 @@
                 }
 
                 echo "</table>";
+                echo"<br><a href=\"findA-Doctor.html\"><button>back</button></a>";
+                echo"<br><a href=\"in.html\"><button>Home</button></a>";
             } else {
                 echo "No results found.";
             }

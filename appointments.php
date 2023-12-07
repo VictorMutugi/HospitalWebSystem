@@ -61,6 +61,9 @@
                 
                     // Force download of the file when the link is clicked
                     echo "<a href='data:text/html;charset=utf-8," . urlencode($fileContent) . "' download='" . $filename . "'>Download Receipt</a>";
+
+                    echo"<br><a href=\"appointment.html\"><button>back</button></a>";
+                    echo"<br><a href=\"in.html\"><button>Home</button></a>";
                 } else {
                     echo "No data found";
                 }

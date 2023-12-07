@@ -1,22 +1,27 @@
 /* Body Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 180vh;
+    text-align: center;
 }
 
 /* Heading Styles */
 h1 {
-    text-align: center;
-    margin-top: 40px;
     color: #333;
+    margin-bottom: 30px;
 }
 
 /* Form Styles */
-fieldset {
-    width: 50%;
-    margin: 20px auto;
+form {
+    width: 70%;
+    max-width: 500px;
     padding: 20px;
     border: 2px solid #007bff;
     border-radius: 10px;
@@ -32,13 +37,10 @@ label {
 
 input[type="text"],
 input[type="tel"],
-input[type="date"],
-input[type="time"],
-input[type="email"],
-select,
-textarea {
-    width: 100%;
-    padding: 8px;
+input[type="password"],
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 20px;
@@ -55,17 +57,13 @@ select {
     background-position-y: center;
 }
 
-textarea {
-    resize: none;
-}
-
 button[type="reset"],
 button[type="submit"],
-#HomePage {
+#inPage {
     padding: 12px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #ff6b6b;
+    background-color: #007bff;
     color: #fff;
     font-size: 18px;
     cursor: pointer;
@@ -75,7 +73,18 @@ button[type="submit"],
 
 button[type="reset"]:hover,
 button[type="submit"]:hover,
-#HomePage:hover {
-    background-color: #ff1f1f;
+#inPage:hover {
+    background-color: #0056b3;
     transform: translateY(-3px);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
 }

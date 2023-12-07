@@ -2,52 +2,54 @@
 <html>
     <head>
         <link rel="icon" href="static\images\userInfo Page Favicon.png" type="image/x-icon"></link>
-        <link rel="stylesheet" href="static\css\userInfo.css" type="image/x-icon"></link>
+        <link rel="stylesheet" href="static\css\userInfo.css" type="text/css"></link>
         <script src="static/js/userInfo.js"></script>
         <title>Personal Information Page</title>
 
     </head>
     <body>
 
-        <h1>Personal Details</h1>
+        <h1>Create Account</h1>
 
         <form method="POST" action="userInfo.php"> 
-            <p>
-            <label for="Firstname">First Name</label>
-            <input type="text" name="Firstname" id="Firstname">
-            </p>
-            <p>
-                <label for="Lastname">Last Name</label>
-                <input type="text" name="Lastname" id="Lastname">
-            </p>
-            <p>
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email">
-            </p>
-            <p>
-                <label for="dial 
-                ">Phone Number</label>
-                <input type="tel" name="dial" id="dial>">
-            </p>
-            <p>
-                <label for="key">Password</label>
-                <input type="password" name="key" id="key">
-            </p>
-            <p>
-                <label for="ID">ID</label>
-                <input type="text" name="ID" id="ID">
-            </p>
-            <p>
-                <label for="paymentOption">Preferred Payment Method</label>
-                <select name="paymentOption" id="paymentOption">
-                    <option value="Mpesa">Mpesa</option>
-                    <option value="VISA">VISA</option>
-                    <option value="Insurance">Insurance</option>
-                    <option value="Cash">Cash</option>
-                </select>
-            </p>
-            <button type="reset">Reset</button>
-            <button type="submit">Submit</button>
+            <fieldset>
+                <p>
+                <label for="Firstname">First Name</label>
+                <input type="text" name="Firstname" id="Firstname">
+                </p>
+                <p>
+                    <label for="Lastname">Last Name</label>
+                    <input type="text" name="Lastname" id="Lastname">
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </p>
+                <p>
+                    <label for="dial 
+                    ">Phone Number</label>
+                    <input type="tel" name="dial" id="dial>">
+                </p>
+                <p>
+                    <label for="key">Password</label>
+                    <input type="password" name="key" id="key">
+                </p>
+                <p>
+                    <label for="ID">ID</label>
+                    <input type="text" name="ID" id="ID">
+                </p>
+                <p>
+                    <label for="paymentOption">Preferred Payment Method</label>
+                    <select name="paymentOption" id="paymentOption">
+                        <option value="Mpesa">Mpesa</option>
+                        <option value="VISA">VISA</option>
+                        <option value="Insurance">Insurance</option>
+                        <option value="Cash">Cash</option>
+                    </select>
+                </p>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </fieldset>
         </form>
 
         <br><br><br>
