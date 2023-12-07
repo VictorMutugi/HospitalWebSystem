@@ -4,6 +4,55 @@
     <title>Data Fetcher</title>
 </head>
 <body>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f5ed; /* Soft cream background */
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* CSS for table */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #f7d8a5; /* Light golden border */
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #ffd699; /* Light orange heading */
+            font-weight: bold;
+        }
+
+        /* CSS for buttons */
+        button {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 1px solid #ffb366; /* Lighter orange border */
+            background-color: #ffcc80; /* Light orange button */
+            color: #333;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #ffd699; /* Darker orange on hover */
+        }
+
+        /* Page heading */
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #ff704d; /* Light red heading */
+        }
+    </style>
     <?php
         $servername = "localhost";
         $username = "root";
