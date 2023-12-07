@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Appointment db page</title>
+    <link rel="stylesheet" href="static\css\appdb.css" type="text/css"></link>
 </head>
 <body>
         <?php
